@@ -95,7 +95,7 @@ function loadGame() {
  */
 function playGame(replay) {
   display = document.querySelector('#contador');
-  startTimer(10, display);
+  startTimer(60, display);
   /**
    * Letras que serão randomizadas para caírem ao inferno.
    */
